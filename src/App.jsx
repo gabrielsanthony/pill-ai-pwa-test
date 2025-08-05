@@ -441,6 +441,7 @@ function App() {
       )}
 
       {/* ✅ Progress Tracking UI */}
+{false && (
 <div className="progress-section">
   <h3>📈 Track Your Medication</h3>
 
@@ -569,6 +570,7 @@ function App() {
             </div>
           )}
         </div>
+)}
 
       {isCourseComplete && (
         <div className="progress-section">
